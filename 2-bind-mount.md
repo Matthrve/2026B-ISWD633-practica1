@@ -20,7 +20,7 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 docker run -d --name mi_nginx -p 8080:80 -v "C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\nginx\html:/usr/share/nginx/html" nginx:alpine
 ### ¿Qué sucede al ingresar al servidor de nginx?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+Al entrar al navegador en http://localhost:8080, el servidor responde pero muestra un mensaje de error 403 Forbidden. Esto ocurre porque la carpeta que compartimos desde el host está vacía y Nginx no encuentra un archivo que mostrar. 
 ### ¿Qué pasa con el archivo index.html del contenedor?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 

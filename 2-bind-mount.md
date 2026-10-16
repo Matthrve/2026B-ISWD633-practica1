@@ -23,7 +23,7 @@ docker run -d --name mi_nginx -p 8080:80 -v "C:\EPN\SextoSemestre\Construccion_&
 Al entrar al navegador en http://localhost:8080, el servidor responde pero muestra un mensaje de error 403 Forbidden. Esto ocurre porque la carpeta que compartimos desde el host está vacía y Nginx no encuentra un archivo que mostrar. 
 ### ¿Qué pasa con el archivo index.html del contenedor?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+El index.html que trae Nginx por defecto queda oculto y reemplazado. Al montar la carpeta local, Nginx ya no usa su archivo interno, sino únicamente lo tengamos en la carpeta del host.
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA

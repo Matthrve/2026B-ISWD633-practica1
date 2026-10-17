@@ -27,7 +27,7 @@ El index.html que trae Nginx por defecto queda oculto y reemplazado. Al montar l
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+El servidor ya no da error, ahora carga y muestra el template completo como página principal.
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
 

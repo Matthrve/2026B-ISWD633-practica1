@@ -30,7 +30,7 @@ El index.html que trae Nginx por defecto queda oculto y reemplazado. Al montar l
 El servidor ya no da error, ahora carga y muestra el template completo como página principal.
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
-
+docker rm -f mi_nginx
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 

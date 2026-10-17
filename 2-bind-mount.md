@@ -33,5 +33,4 @@ El servidor ya no da error, ahora carga y muestra el template completo como pág
 docker rm -f mi_nginx
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
-
+Al crear nuevamente el contenedor con el mismo directorio, Nginx muestra otra vez mi página porque los archivos siguen guardados en mi computadora.

@@ -15,7 +15,7 @@ C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\ejercicio3\
 Contiene los archivos físicos de la base de datos MySQL (tablas, índices, registros y configuraciones internas).
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
 # COMPLETAR CON EL COMANDO
-
+docker run -d --name mysql --network net-wp -v "C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\ejercicio3\db:/var/lib/mysql" -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wpuser -e MYSQL_PASSWORD=wppass mysql:8
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 

@@ -18,7 +18,7 @@ Contiene los archivos físicos de la base de datos MySQL (tablas, índices, regi
 docker run -d --name mysql --network net-wp -v "C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\ejercicio3\db:/var/lib/mysql" -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wpuser -e MYSQL_PASSWORD=wppass mysql:8
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+Se observa que ahora contiene los archivos y carpetas generados por MySQL, como bases de datos internas, la base creada (wordpress), archivos de configuración y registros para el funcionamiento del servidor.
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
 En el esquema del ejercicio la carpeta del contenedor (b) es (COMPLETAR CON LA RUTA)

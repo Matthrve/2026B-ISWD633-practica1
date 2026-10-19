@@ -29,8 +29,6 @@ C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\ejercicio3\
 # COMPLETAR CON EL COMANDO
 docker run -d --name wordpress --network net-wp -v "C:\EPN\SextoSemestre\Construccion_&_Evolucion_SW\Practicas\Practica1\ejercicio3\www:/var/www/html" -e WORDPRESS_DB_HOST=mysql -e WORDPRESS_DB_USER=wpuser -e WORDPRESS_DB_PASSWORD=wppass -e WORDPRESS_DB_NAME=wordpress -p 8081:80 wordpress
 ### Personalizar la apariencia de wordpress y agregar una entrada
-
 ### Eliminar el contenedor y crearlo nuevamente, ¿qué ha sucedido?
-
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA 
-
+Al eliminar y recrear el contenedor, los cambios persisten y el contenido agregado se mantienen porque los datos están guardados en los volúmenes del host (db y www).

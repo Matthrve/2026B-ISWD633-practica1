@@ -41,7 +41,7 @@ docker run -d --name test-container -v vol-postgres:/data alpine
 
 ### Crear la red net-drupal de tipo bridge
 # COMPLETAR CON EL COMANDO
-
+docker network create net-drupal
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
 ```
 docker run -d --name server-postgres -e POSTGRES_DB=db_drupal -e POSTGRES_PASSWORD=12345 -e POSTGRES_USER=user_drupal --network net-drupal postgres

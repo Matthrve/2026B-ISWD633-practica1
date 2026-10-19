@@ -36,6 +36,7 @@ docker run -d --name <nombre contenedor> --mount type=volume,src=<nombre >,dst=<
 ```
 - destination, dst, target: La ruta donde se monta el archivo o directorio en el contenedor.
 - source, src: El origen del montaje. Para volúmenes con nombre, este es el nombre del volumen. Para volúmenes anónimos, este campo se omite.
+
 docker run -d --name test-container -v vol-postgres:/data alpine
 
 ### Crear la red net-drupal de tipo bridge
